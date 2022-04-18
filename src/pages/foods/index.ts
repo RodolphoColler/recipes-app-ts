@@ -1,3 +1,1 @@
-import Foods from './Foods';
-
-export default Foods;
+export { default } from './Foods'
