@@ -1,8 +1,13 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Foods from './pages/foods/';
+
 function App() {
   return (
-    <div>
-      initial
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/foods" element={ <Foods /> } />
+      </Routes>
+    </Router>
   );
 }
 
